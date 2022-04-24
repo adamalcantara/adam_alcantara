@@ -3,7 +3,8 @@ import React from 'react';
 const Card = () => {
 
     const cardInfo = [
-        {id: "photography", link: "https://avalcantaraphotography.com", text: "Photography"}
+        {id: "photography", link: "https://avalcantaraphotography.com", text: "Photography"},
+        {id: "development", link: "https://alcantaradevelopment.com/", text: "Web Development"}
     ]
 
     const renderCard = (card, index) => {
