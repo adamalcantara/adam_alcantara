@@ -1,6 +1,6 @@
 .cardContainer {
     display: flex;
-    width: 25%;
+    /* width: 25%; */
     justify-content: space-between;
 }
 
@@ -13,3 +13,22 @@
     padding: 10px 25px;
 }
 
+#photography {
+    margin-right: 30px;
+}
+
+.card:hover {
+    color: rgb(169, 169, 169);
+    border: 2px solid rgb(169, 169, 169);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+        flex-direction: column;
+    }
+
+    #photography {
+        margin-right: 0px;
+    }
+}
