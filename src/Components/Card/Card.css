@@ -1,11 +1,15 @@
 .cardContainer {
     display: flex;
-    width: 15%;
+    width: 25%;
     justify-content: space-between;
 }
 
 .card {
     text-decoration: none;
     color: white;
-    
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    border: 2px solid white;
+    padding: 10px 25px;
 }
+
