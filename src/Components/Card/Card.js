@@ -9,7 +9,7 @@ const Card = () => {
     const renderCard = (card, index) => {
         return (
             <div>
-                <div id="card">Hello</div>
+                <a id={card.id} className="card" href={card.link}>{card.text}</a>
             </div>
           );
     }
