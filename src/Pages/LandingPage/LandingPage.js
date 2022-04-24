@@ -1,4 +1,5 @@
 import React from 'react';
+import "./LandingPage.css"
 
 // import card
 import Card from '../../Components/Card/Card';
@@ -6,7 +7,7 @@ import Card from '../../Components/Card/Card';
 const LandingPage = () => {
     
   return (
-    <div>
+    <div id="landingPage">
         <h1>Adam Alcantara</h1>
         <Card />
     </div>
