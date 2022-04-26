@@ -8,7 +8,7 @@ const LandingPage = () => {
     
   return (
     <div id="landingPage">
-        <h1>Adam Alcantara</h1>
+        <h1 id="name">Adam Alcantara</h1>
         <Card />
     </div>
   )

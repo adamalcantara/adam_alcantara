@@ -11,3 +11,11 @@
     justify-content: center;
     align-items: center;
 }
+
+#name {
+    font-family: 'Teko', sans-serif;
+    font-size: 75px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+}
